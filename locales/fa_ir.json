@@ -136,16 +136,16 @@
     "tip1": "محتوای رجیستر ها در فایل ~/.viminfo ذخیره می شوند و بعد از ریستارت برنامه به آنها دسترسی دارید.",
     "tip2": {
       "0": "آخرین یانک (کپی)",
-      "title": "Special registers:",
+      "title": "ثبات‌های ویژه:",
       "quote": "unnamed register, last delete or yank",
       "percent": "نام فایل جاری",
       "hashtag": "alternate file name",
       "asterisk": "clipboard contents (X11 primary)",
       "plus": "clipboard contents (X11 clipboard)",
-      "slash": "last search pattern",
-      "colon": "last command-line",
-      "dot": "last inserted text",
-      "minus": "last small (less than a line) delete",
+      "slash": "آخرین پترن سرچ",
+      "colon": "آخرین خط دستور",
+      "dot": "آخرین متن درج‌شده",
+      "minus": "آخرین حذف کوچیک (کمتر از یک خط)",
       "equal": "expression register",
       "underscore": "black hole register"
     }
