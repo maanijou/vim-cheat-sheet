@@ -15,8 +15,8 @@
       "E": "برو به آخر کلمه (کلمه هایی که شامل نقطه و علامت)",
       "b": "برو به ابتدای کلمه",
       "B": "برو به ابتدای کلمه(کلمه هایی که شامل نقطه و علامت)",
-      "ge": "jump backwards to the end of a word",
-      "gE": "jump backwards to the end of a word (words can contain punctuation)",
+      "ge": "پرش رو به عقب تا انتهای کلمه",
+      "gE": "پرش رو به عقب تا انتهای کلمه (کلمات می‌توانند شامل نقطه‌گذاری‌ها باشند)",
       "H": "برو به ابتدای نمایشگر",
       "M": "برو به وسط نمایشگر",
       "L": "برو به آخر نمایشگر",
@@ -27,8 +27,8 @@
       "gg": "برو به اولین خط این فایل",
       "G": "برو به آخرین خط این فایل",
       "fiveG": "برو به خط شماره 5",
-      "gd": "move to local declaration",
-      "gD": "move to global declaration",
+      "gd": "حرکت روی تعریف (اعلام) محلی",
+      "gD": "حرکت روی تعریف (اعلام) سرتاسری",
       "fx": "برو به کاراکتر x",
       "tx": "برو به یک کاراکتر قبل از x",
       "Fx": "برو به کاراکتر x قبل از محل فعلی مکان نما",
@@ -80,7 +80,7 @@
       "gu": "change to lowercase up to motion",
       "gU": "change to uppercase up to motion",
       "cc": "خط فعلی را جایگزین کن",
-      "C": "change (replace) to the end of the line",
+      "C": "تغییر (جایگزین‌کردن) تا انتهای خط",
       "cDollar": "از مکان فعلی تا آخر خط را جایگزین کن",
       "ciw": "خط فعلی را جایگزین کن",
       "cw": "کلمه فعلی را جایگزین کن",
@@ -88,7 +88,7 @@
       "S": "خط فعلی را جایگزین کن(مثل cc)",
       "xp": "ترانهادن دو کاراکتر(پاک کردن و چسباندن)",
       "u": "بازگرداندن",
-      "U": "restore (undo) last changed line",
+      "U": "بازگرداندن تغییرات آخرین خط تغییرکرده",
       "CtrlPlusr": "دوباره انجام بده",
       "dot": "فرمان قبلی را تکرار کن"
     }
@@ -120,8 +120,8 @@
       "y": "کپی کردن متن",
       "d": "حذف متن",
       "tilde": "تغییر از حرف کوچک به بزرگ یا برعکس",
-      "u": "change marked text to lowercase",
-      "U": "change marked text to uppercase"
+      "u": "تغییر متن مشخص‌شده به حروف کوچک",
+      "U": "تغییر متن مشخص‌شده به حروف بزرگ"
     }
   },
   "registers": {
@@ -130,8 +130,8 @@
       "show": "محتوای رجیستر را نمایش بده",
       "pasteRegisterX": "کپی کردن به رجیستر x",
       "yankIntoRegisterX": "محتوای رجیستر x را پیست کن",
-      "quotePlusy": "yank into the system clipboard register",
-      "quotePlusp": "paste from the system clipboard register"
+      "quotePlusy": "کپی‌کردن (یانک) در رجیستر کلیپ‌بورد سیستم ",
+      "quotePlusp": "چسباندن به وسیلیه رجیستر کلیپ‌بورد سیستم"
     },
     "tip1": "محتوای رجیستر ها در فایل ~/.viminfo ذخیره می شوند و بعد از ریستارت برنامه به آنها دسترسی دارید.",
     "tip2": {
@@ -215,18 +215,18 @@
     }
   },
   "indentText": {
-    "title": "Indent text",
+    "title": "تو رفتنگی متن",
     "commands": {
       "greaterThanGreaterThan": "indent (move right) line one shiftwidth",
       "lessThanLessThan": "de-indent (move left) line one shiftwidth",
       "greaterThanPercent": "indent a block with () or {} (cursor on brace)",
       "greaterThanib": "indent inner block with ()",
       "greaterThanat": "indent a block with <> tags",
-      "3==": "re-indent 3 lines",
+      "3==": "تنظیم مجدد تو رفتگی ۳ خط",
       "=Percent": "re-indent a block with () or {} (cursor on brace)",
       "=iB": "re-indent inner block with {}",
-      "gg=G": "re-indent entire buffer",
-      "closeSquarep": "paste and adjust indent to current line"
+      "gg=G": "تنظیم مجدد تورفتنگی کل بافر",
+      "closeSquarep": "چسباندن و تنظیم تو رفتگی برای خط کنونی"
     }
   },
   "exiting": {
